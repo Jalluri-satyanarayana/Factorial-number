@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+.content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: 30vh;
+    text-align: center;
+    margin-left: 350px;
+    background-color: rgb(200, 239, 255);
+}
+#name{
+    position: relative;
+    left: 50px;
+    font-size: large;
+}
+
+input{
+    text-align: center;
+    margin: 60px;
+    width: 40%;
+    height: 20px;
+}
+button{
+    background-color: #4caf50;
+    color: #fff;
+    position: relative;
+    bottom: 22px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (min-width: 1300px) {
+    .content {
+        width: 40%;
+        height: 30vh;
+        text-align: center;
+        margin-left: 500px;
+    }
+    #name{
+        position: relative;
+        top: 3px;
+        left: 100px;
+    }
+    button{
+        position: relative;
+        top: 60px;
+        right: 220px;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        text-align: center;
+        margin: 60px;
+        width: 40%;
+        height: 20px;
+        position: relative;
+        left: 50px;
+    }
+}
